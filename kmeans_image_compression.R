@@ -39,7 +39,7 @@ df_kmeans_clusters = data.frame(cluster = 1:nrow(K_findings$centers),
                             green_cluster = K_findings$centers[ , "green"])
 
 # Match the pixel location with the assigned color cluster for compression. 
-#Using data.table is a very efficient way to do this; although and index must be 
+# Using data.table is a very efficient way to do this; although an index must be 
 # made first because the order is not retained. This can also be done with the join 
 # function with the argument type = "inner" which also retains the order; however, this 
 # function is slower when dealing with bigger datasets compared to using data.table
