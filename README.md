@@ -28,5 +28,8 @@ The size of the recompression using our clustered label assignments 24 x 10 + 48
 The recompression is 6 times smaller than the original image.
 
 ###########################################################
+There are 2 scripts in this repository. One manipulates the data using dataframs and the other one manipulates
+the color data with arraays. The end result is the same for both of them.
+
 I included a pdf file that shows the original image and all the cluster reconstructions going from 1-10 cluster. 
 It goes from left to right all the way down to the final reconstructed image of 10 colors at the bottom.
