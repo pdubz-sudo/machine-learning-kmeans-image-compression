@@ -70,4 +70,3 @@ clustered_beach_pic <- data.frame(df_base, df_color_cluster) %>% as.cimg(dim=c(d
 # Plot
 plot(clustered_beach_pic)
 
-
