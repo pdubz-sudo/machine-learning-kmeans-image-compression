@@ -3,7 +3,6 @@
 library(imager)
 library(dplyr)
 
-
 # Load pic
 beach <- load.image("beach.jpg")
 
