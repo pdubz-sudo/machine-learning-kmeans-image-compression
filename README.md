@@ -6,7 +6,7 @@ Programming Language: R
 The Kmeans algorith is an unsuperviesed learning algorithm that groups similar data samples together. These groups
 can be thought of as clusters and at the center of the cluster is a centroid. The process to determine the cluster centroids 
 is an iterative process that starts with random initial centroids and assigns training samples to their closest 
-centroids and then recomputes the centroids. This is a powerful algorith that has many usessuch as segmenting purchase history,
+centroids and then recomputes the centroids. This is a powerful algorith that has many uses such as segmenting purchase history,
 customers, behavior, motion sensor activity types, etc. 
 
 This repository focuses on using Kmeans algorith to compress an image by clustering colors together into a limited amount of 
