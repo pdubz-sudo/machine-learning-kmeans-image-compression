@@ -23,6 +23,7 @@ pixel in the image we only have to store the index of the color cluster.
 
 Since we have only 10 colors now at 24 bits we saved a lot of space in comparison to the thousands of different colors.
 In addition, each pixel only needs now 4 bits per location.
+    
     The size of the recompression using our clustered label assignments 24 x 10 + 480 x 223 x 4 = 428,400 bit.
 
 The recompression is 6 times smaller than the original image.
