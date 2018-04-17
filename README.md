@@ -18,8 +18,8 @@ place those 10 colors back into the image according to their cluster index assig
 because the image only needs to store red, green, and blue values for 10 colors instead of thousands and for each 
 pixel in the image we only have to store the index of the color cluster.
 
-The image used is a picture of a beach which I took in Lagos, Portual. The image has dimensions 480 x 223.
-The size of the original image is 480 x 223 x 24 = 2,568,960 bits
+    The image used is a picture of a beach which I took in Lagos, Portual. The image has dimensions 480 x 223.
+    The size of the original image is 480 x 223 x 24 = 2,568,960 bits
 
 Since we have only 10 colors now at 24 bits we saved a lot of space in comparison to the thousands of different colors.
 In addition, each pixel only needs now 4 bits per location.
