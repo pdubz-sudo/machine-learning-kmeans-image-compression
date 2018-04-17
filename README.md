@@ -27,11 +27,6 @@ The size of the recompression using our clustered label assignments 24 x 10 + 48
 
 The recompression is 6 times smaller than the original image.
 
-'''
-asdfasdf
-'''
-
-
 ## Note
 
 There are 2 scripts in this repository. One manipulates the data using dataframes and the other script manipulates
