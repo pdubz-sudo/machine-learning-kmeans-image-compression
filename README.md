@@ -3,7 +3,7 @@ Using unsupervised learning to cluster colors in a picture and compressing the i
 
 Programming Language: R
 
-The Kmeans algorithm is an unsuperviesed learning algorithm that groups similar data samples together. These groups
+The Kmeans algorithm is an unsupervised learning algorithm that groups similar data samples together. These groups
 can be thought of as clusters and at the center of the cluster is a centroid. The process to determine the cluster centroids 
 is an iterative process that starts with random initial centroids and assigns training samples to their closest 
 centroids and then recomputes the centroids. This is a powerful algorithm that has many uses such as segmenting purchase history,
