@@ -3,13 +3,13 @@ Using unsupervised learning to cluster colors in a picture and compressing the i
 
 Programming Language: R
 
-The Kmeans algorith is an unsuperviesed learning algorithm that groups similar data samples together. These groups
+The Kmeans algorithm is an unsuperviesed learning algorithm that groups similar data samples together. These groups
 can be thought of as clusters and at the center of the cluster is a centroid. The process to determine the cluster centroids 
 is an iterative process that starts with random initial centroids and assigns training samples to their closest 
-centroids and then recomputes the centroids. This is a powerful algorith that has many uses such as segmenting purchase history,
+centroids and then recomputes the centroids. This is a powerful algorithm that has many uses such as segmenting purchase history,
 customers, behavior, motion sensor activity types, etc. 
 
-This repository focuses on using Kmeans algorith to compress an image by clustering colors together into a limited amount of 
+This repository focuses on using Kmeans algorithm to compress an image by clustering colors together into a limited amount of 
 colors and reconstructing the image with those colors. The process is completely unsupervised as we do not indicate any labels 
 for the colors: only indicate how many clusters we want. To do this we need to know how images are structured. All images
 contain 3 colors (red, blue, and green) and each color has a value ranging from 0-255 in a 24-bit color representation.
